@@ -18,7 +18,7 @@ module.exports =  ({ auth, func, db, valid}) => {
                     isAuthenticated: req.isAuthenticated(),
                     userData,
                     pagePath: `module-${moduleName}/home`,
-                    pageTitle: 'Community Demo - MCMS'
+                    pageTitle: 'Demo - MCMS'
                 })
             }
         })
